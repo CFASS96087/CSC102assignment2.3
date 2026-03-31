@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This links the html file to the css to format the information on the page when the user opens it up -->
     <link rel = "stylesheet" href = "game.css"/>
+   <!-- This links the html file to the javascript file in the formatted SOURCE file path on my computer -->
     <script src = "game.js"></script>
+   <!-- This is for titling the page -->
     <title>RLGL</title>
 </head>
 <body>
+    <!-- This is the top header of the page -->
     <h1> Red Light Green Light </h1>
+    <!-- This is ot identify the first image in teh file and formatting the file path to the source on my computer -->
     <img id = "rlgl" src = "stop lights.jpg">
     <br>
+    <!-- This is placing and formatting the text for the button to press to play the game -->
     <button onclick = "RLGL()"> Play Red Light Green Light </button>
     <h3>Player 1</h3>
-    <image id = "player1Image" width = "100px" height = "200px"/>
+    <!-- This is to place and format the image for Player 1 game result-->
+    <image id = "player1Image" width = "75px" height = "125px"/>
     <h3>Player 2</h3>
-    <image id = "player2Image" width = "100px" height = "200px"/>
-
-    <div id = "result"> Result goes here </div>
+    <!-- This is to place and format the image for Player 2 game result -->
+    <image id = "player2Image" width = "75px" height = "125px"/>
+    <br>
+    <!-- This is to place the initial text before playing the game and changing to the result of the game -->
+    <div id = "result"> Will you WIN or LOSE? </div>
 </body>
 </html>

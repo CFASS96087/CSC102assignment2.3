@@ -1,6 +1,71 @@
 #rlgl
 {
-    width: 200px;
-    height: 100px;
-
+    /* This formats the main image below the header at the top of the page */
+    display:block;
+    margin: 0 auto;
+    width: 250px;
+    height: 150px;
+    border-width: 5px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: black;
+}
+body
+{
+    /* This formats the page background color */
+    background-color:gray;
+}
+h1
+{
+    /* This command formats the header at the top of the page for the red light green light game */
+    color:black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button
+{
+    /* This command format the button ont the page that the user presses to play the game */
+    display:block;
+    margin: 0 auto;
+    border-width: 5px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color:black;
+    background-color:yellow;
+}
+#player1Image
+{
+    /* The below commands formats the Player 1 image box */
+    display:block;
+    margin: 0 auto;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 5px;
+    border-style: groove;
+    background-color:white;
+}
+#player2Image
+{
+    /* The below commands formats the player 2 image box */
+    display:block;
+    margin: 0 auto;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 5px;
+    border-style: groove;
+    background-color:white;
+}
+h3
+{   
+    /* The below commands format the headers on the page for the player image boxes */
+    color:black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#result
+{   
+    /* The comamnds below formats the result on the page of the user playing the game */
+    color:black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
