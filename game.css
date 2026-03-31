@@ -19,7 +19,7 @@ h1
 {
     /* This command formats the header at the top of the page for the red light green light game */
     color:black;
-    text-align: center;
+    text-align:center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 button
@@ -68,4 +68,16 @@ h3
     color:black;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#race
+{
+    display:block;
+    margin: 0 auto;
+    width: 250px;
+    height: 150px;
+    border-width: 5px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: black;
+    background-color: white;
 }

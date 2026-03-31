@@ -9,6 +9,9 @@ function RLGL()
     var greenImage = "green.jpg";
     var yellowImage = "yellow.jpg";
     var redImage =  "red.jpg";
+    var crashImage = "crash.gif";
+    var dragImage = "drag.gif";
+    var drag2Image = "drag2.gif";
 
     // This command is to reset a specific element on this page such as changing the element in the player boxes on what the result is each time the user presses the button.
     document.getElementById("result").innerHTML = " ";
@@ -42,22 +45,27 @@ function RLGL()
     {
        // If Player 2 result of the math command is 3, the red stoplight image will be presented in Player 2 image box.
        document.getElementById("player2Image").src = redImage;
+    
     }
 
     if (player1 == player2)
     {
         // If Player 1 result of the math command and Player is equal, a DRAW result will appear for the user.
         document.getElementById("result").innerHTML = "DRAW";
+        document.getElementById("race").src = crashImage;
     }
 
     else if (player1 ==1 && (player2 ==2 || (player2 ==3)) || (player1 ==2 && player2 ==3))
     {
         //If Player 1 result is 1 and the Player 2 result is a 2 or 3 Player 1 wins.  If Player 1 result is 2 and Player 2 result is 3, Player 1 wins.
         document.getElementById("result").innerHTML = "Player 1 WINS!!";
+        document.getElementById("race").src = dragImage;
     }
     else
     {
         // If Player 2 result is anything other than outlined above, Player 1 loses and Player 2 wins.
         document.getElementById("result").innerHTML = "Player 2 is the WINNER!";
+        document.getElementById("race").src = drag2Image;
     }
     }
+
