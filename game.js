@@ -69,3 +69,27 @@ function RLGL()
     }
     }
 
+function CYD()
+{
+    var driver = Math.ceil(Math.random() *3);
+    
+    var driver1Image = "greenhat.jpg";
+    var driver2Image = "bluehat.jpg";
+    var driver3Image =  "orangehat.jpg";
+
+    if (driver == 1)
+    {
+        // If Player 1 result of the math command is 1, the green stoplight image will be presented in Player 1 image box.
+        document.getElementById("cydImage").src = driver1Image;
+    }
+    else if (driver ==2)
+    {
+        // If Player 1 result of the math command is 2, the yellow stoplight image will be presented in Player 1 image box.
+        document.getElementById("cydImage").src = driver2Image;
+    }
+    else
+    {
+        // If Player 1 result of the math command is 3, the red stoplight image will be presented in Player 1 image box.
+        document.getElementById("cydImage").src = driver3Image;
+    } 
+}

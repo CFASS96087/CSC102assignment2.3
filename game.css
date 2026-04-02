@@ -81,3 +81,13 @@ h3
     border-color: black;
     background-color: white;
 }
+#cydImage
+{
+    display:block;
+    margin: 0 auto;
+    border-width: 5px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: black;
+    background-color: white;
+}
